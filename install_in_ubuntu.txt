@@ -1,0 +1,11 @@
+
+# for update ubuntu
+sudo apt-get update && apt-get upgrade -y
+
+
+# See what version is available in the repos
+apt-cache show nginx
+
+
+# Install with apt-get package manager
+sudo apt-get install nginx
