@@ -1,0 +1,12 @@
+# It will be started by default. Control it with:
+sudo systemctl stop nginx
+sudo systemctl start nginx
+sudo systemctl restart nginx
+
+
+# View logs with:
+journalctl -u nginx
+
+
+# Get the status with:
+sudo systemctl status nginx
